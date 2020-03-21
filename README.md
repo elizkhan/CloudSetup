@@ -15,10 +15,10 @@ Google currently offers credit for the first 12 months to use some of their clou
 
 1. From the drop-down menu, select “New Service Account”.   
 
-![New Service Account](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20New.png)
+![New Service Account](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Account.png)
 2.Enter in a Service Account name. 
 
-![Service Account Name](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Account.png)
+![Service Account Name](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Name.png)
 
 3. For the “Role” select Project and then Owner.
 
@@ -35,10 +35,10 @@ Google currently offers credit for the first 12 months to use some of their clou
 ![System Proeperties](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20System%20Properties.png)
 2. Set “Variable Name” to GOOGLE_APPLICATION_CREDENTIALS.
 
-![Image](src)
+![Image](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20New.png)
 3. Set Variable value to the location of the file.
 
-![Image](src)
+![Image](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial.PNG)
 
 
 ### Test BigQuery Connection
