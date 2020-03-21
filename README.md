@@ -1,4 +1,4 @@
-## Quick Setup for Google Big Query for Personal Use for Windows OS
+## Quick Setup for Google Big Query for Personal Use on Windows OS
 
 This tutorial will get you up and running with Google BigQuery in just **10 minutes**. Enjoy!
 
