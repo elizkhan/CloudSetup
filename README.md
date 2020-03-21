@@ -5,7 +5,6 @@ This tutorial will get you up and running with Google BigQuery in just **10 minu
 ### Install Python Library
 Open Command Prompt and run the following script to install the Google BigQuery python library.
 ```pip install --upgrade google-cloud-bigquery```
-![Image](src)
 
 ### Sign Up for Free Trial
 
