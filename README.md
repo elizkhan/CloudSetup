@@ -20,7 +20,7 @@ Google currently offers credit for the first 12 months to use some of their clou
 3. For the “Role” select Project and then Owner.
 ![Image](src)
 4. Click on Create and a local JSON file will be created with the credentials. This file will show up in your “Downloads” folder, I would recommend moving this file to a location that is secure. 
-![Image](src)
+![](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Create%20Local%20Json.png)
 
 ### Environment Variable
 
