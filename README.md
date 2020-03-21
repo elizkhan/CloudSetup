@@ -15,7 +15,7 @@ Google currently offers credit for the first 12 months to use some of their clou
 1. From the drop-down menu, select “New Service Account”.   <br/>
 
 ![New Service Account](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Account.png)<br/>
-2.Enter in a Service Account name. <br/>
+2. Enter in a Service Account name. <br/>
 
 ![Service Account Name](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Name.png)<br/>
 
@@ -43,8 +43,34 @@ Google currently offers credit for the first 12 months to use some of their clou
 
 
 ### Test BigQuery Connection
+ 
+####Import Libraries for Google BigQuery
+```
+from google.cloud import bigquery
+import pandas as pd
+```
 
+#### Connect to Google Big Query through Environment Variable Authentication</br>
+_Note: If you are experiencing issues running this you may need to restart your computer, if you have not done so since setting the environment variables._ </br>
+In this example query we are pulling from Google's NCAA basketball dataset to select the programs with the most Wins in any season.
 
+```
+client = bigquery.Client()
+
+#Query to Pull from Google NCAA Men's Basketball Public Dataset
+query = """
+     SELECT teams.name,  max(hist.wins) as max_wins
+    FROM `bigquery-public-data.ncaa_basketball.mbb_historical_teams_seasons` hist
+    left join `bigquery-public-data.ncaa_basketball.mbb_teams` teams on hist.team_id=teams.id
+    GROUP BY teams.name
+    ORDER BY max_wins DESC
+    LIMIT 10
+"""
+
+#Pull down as dataframe in memory
+df = client.query(query).to_dataframe()
+df
+```
 
 
 Happy Querying!
