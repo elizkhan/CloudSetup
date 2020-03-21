@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Quick Setup for Google Big Query for Personal Use for Windows OS
 
-You can use the [editor on GitHub](https://github.com/elizkhan/eck-coder/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This tutorial will get you up and running with Google BigQuery in about 10 minutes. Enjoy!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Install Python Library
+Open Command Prompt and run the following script to install the Google BigQuery python library.
+```pip install --upgrade google-cloud-bigquery```
 
-### Markdown
+### Sign Up for Free Trial
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Google currently offers credit for the first 12 months to use some of their cloud products and services for free. Google will not charge your account, unless you manually sign up for the non-trial products or services.
 
-```markdown
-Syntax highlighted code block
+### Create Service Account Key
 
-# Header 1
-## Header 2
-### Header 3
+1. From the drop-down menu, select “New Service Account”.   
 
-- Bulleted
-- List
+2.Enter in a Service Account name. 
 
-1. Numbered
-2. List
+3. For the “Role” select Project and then Owner.
 
-**Bold** and _Italic_ and `Code` text
+4. Click on Create and a local JSON file will be created with the credentials. This file will show up in your “Downloads” folder, I would recommend moving this file to a location that is secure. 
+
+### Environment Variable
+
+1. Go to System Properties
+2. Set “Variable Name” to GOOGLE_APPLICATION_CREDENTIALS.
+3. Set Variable value to the location of the file.
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Test BigQuery Connection
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elizkhan/eck-coder/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Happy Querying!
