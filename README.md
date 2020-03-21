@@ -14,21 +14,30 @@ Google currently offers credit for the first 12 months to use some of their clou
 ### Create Service Account Key
 
 1. From the drop-down menu, select “New Service Account”.   
-![Image](src)
+
+![New Service Account](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20New.png)
 2.Enter in a Service Account name. 
-![Image](src)
+
+![Service Account Name](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Service%20Account.png)
+
 3. For the “Role” select Project and then Owner.
-![Image](src)
+
+![Role](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Role.png)
+
 4. Click on Create and a local JSON file will be created with the credentials. This file will show up in your “Downloads” folder, I would recommend moving this file to a location that is secure. 
+
 ![](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20Create%20Local%20Json.png)
 
 ### Environment Variable
 
 1. Go to System Properties
-![Image](src)
+
+![System Proeperties](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20System%20Properties.png)
 2. Set “Variable Name” to GOOGLE_APPLICATION_CREDENTIALS.
+
 ![Image](src)
 3. Set Variable value to the location of the file.
+
 ![Image](src)
 
 
