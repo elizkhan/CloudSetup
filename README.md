@@ -30,13 +30,15 @@ Google currently offers credit for the first 12 months to use some of their clou
 
 ### Environment Variable
 
-1. Go to System Properties
+1. Go to System Properties and select "Environment Variables".
 
 ![System Proeperties](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20System%20Properties.png)
-2. Set “Variable Name” to GOOGLE_APPLICATION_CREDENTIALS.
+
+2. Select New.
 
 ![Image](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial%20New.png)
-3. Set Variable value to the location of the file.
+
+3. Set “Variable Name” to GOOGLE_APPLICATION_CREDENTIALS and set Variable value to the filepath.
 
 ![Image](https://github.com/elizkhan/CloudSetup/blob/master/GoogleTutorial.PNG)
 
